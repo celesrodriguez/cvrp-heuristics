@@ -1,0 +1,7 @@
+# $1 es el nombre del .sol y .vrp (sin el formato)
+# $2 should_save_to_png
+# $3 display_each_distance
+# $4 display_total_distances
+# $5 big_graph
+./../src/build/main sweep ../src/resources/correctedDatasets/$1.vrp false > sol/sw-$1-no-adaptative.sol
+ python3 plot.py sol/sw-$1-no-adaptative.sol ../src/resources/correctedDatasets/$1.vrp $2 $3 $4 $5

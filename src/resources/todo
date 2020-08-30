@@ -1,0 +1,6 @@
+# $1 es el dataset
+# $2 es el nombre
+./../build/main sweep $1 > ../../exp/$2
+./../build/main dataset $1
+mv ../out/$0 ../../exp/$1
+python3 ../../exp/plot.py ../../exp/$2 ../../exp/$1

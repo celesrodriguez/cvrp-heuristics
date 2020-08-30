@@ -1,0 +1,54 @@
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+entre 
+3
+iteracion 0
+clusters 
+50,52,2
+-79,79,2
+65,-80,23
+-87,-80,11
+4
+8 6 25 1 26 10 22 21
+11 13 9 23 24 2
+16 17 12 18 19 3
+5 15 4 14 7 20
+fin it 0
+3
+iteracion 1
+clusters 
+53,53,2
+-77,68,2
+59,-82,23
+-91,-80,11
+4
+8 6 25 1 26 10 22 21
+11 13 9 23 24 2
+16 17 12 18 19 3
+5 15 4 14 7 20
+fin it 1
+
+{ (x: 53, y: 53, demand: 2), (x: -77, y: 68, demand: 2), (x: 59, y: -82, demand: 23), (x: -91, y: -80, demand: 11) }4
+8 6 25 1 26 10 22 21
+11 13 9 23 24 2
+16 17 12 18 19 3
+5 15 4 14 7 20

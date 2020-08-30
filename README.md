@@ -5,3 +5,11 @@ The following project has five heuristics for the Capacited Vehicle Routing Prob
 3) Cluster-first, route-second. Clustering with Sweeping-algorithm.  
 4) Cluster-first, route-second. Clustering with Kmeans-algorithm. 
 5) Simmulated Annealing. 
+
+## How to run
+cd src/
+make clean && make
+cd build/
+./build/main algorithm resources/file
+where algorithm is: savings, greedy, sweep, kmeans or annealing
+and file is an input from resources folder. 
